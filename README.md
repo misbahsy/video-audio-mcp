@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="icon.svg" alt="Video & Audio Editing MCP Server" width="128" height="128">
+</div>
+
 # 🎬 Video & Audio Editing MCP Server
 
 A comprehensive Model Context Protocol (MCP) server that provides powerful video and audio editing capabilities through FFmpeg. This server enables AI assistants to perform professional-grade video editing operations including format conversion, trimming, overlays, transitions, and advanced audio processing.
