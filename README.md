@@ -71,6 +71,7 @@ A comprehensive Model Context Protocol (MCP) server that provides powerful video
 
 The simplest way to get started is through the [Smithery MCP registry](https://smithery.ai/server/@misbahsy/video-audio-mcp):
 
+![Clipboard-20250524-191433-493](https://github.com/user-attachments/assets/68b9d98c-6e3e-48fe-9337-d16f8e82e0d6)
 
 
 #### Option 2: Using uv (Recommended for Development)
