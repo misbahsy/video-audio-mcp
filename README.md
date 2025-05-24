@@ -9,7 +9,6 @@ A comprehensive Model Context Protocol (MCP) server that provides powerful video
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-green.svg)](https://modelcontextprotocol.io/)
-[![smithery badge](https://smithery.ai/badge/@misbahsy/video-audio-mcp)](https://smithery.ai/server/@misbahsy/video-audio-mcp)
 
 ## ✨ Features
 
@@ -66,6 +65,14 @@ A comprehensive Model Context Protocol (MCP) server that provides powerful video
 3. **uv** (recommended) - [Install uv](https://docs.astral.sh/uv/getting-started/installation/) or use pip
 
 ### Installation
+
+#### Installing via Smithery
+
+To install video-audio-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@misbahsy/video-audio-mcp):
+
+```bash
+npx -y @smithery/cli install @misbahsy/video-audio-mcp --client claude
+```
 
 #### Option 1: Using uv (Recommended)
 
