@@ -74,8 +74,8 @@ A comprehensive Model Context Protocol (MCP) server that provides powerful video
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Clone the repository
-git clone https://github.com/yourusername/video-edit-mcp.git
-cd video-edit-mcp
+git clone https://github.com/misbahsy/video-audio-mcp.git
+cd video-audio-mcp
 
 # Install dependencies with uv
 uv sync
@@ -88,8 +88,8 @@ ffmpeg -version
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/video-edit-mcp.git
-cd video-edit-mcp
+git clone https://github.com/misbahsy/video-audio-mcp.git
+cd video-audio-mcp
 
 # Create virtual environment
 python -m venv venv
@@ -131,7 +131,7 @@ Add to your `claude_desktop_config.json`:
       "command": "uv",
       "args": [
         "--directory",
-        "/path/to/your/video-edit-mcp",
+        "/path/to/your/video-audio-mcp",
         "run",
         "server.py"
       ]
@@ -146,7 +146,7 @@ Add to your `claude_desktop_config.json`:
   "mcpServers": {
     "VideoAudioServer": {
       "command": "python",
-      "args": ["/path/to/video-edit-mcp/server.py"]
+      "args": ["/path/to/video-audio-mcp/server.py"]
     }
   }
 }
@@ -159,10 +159,10 @@ Add to your `claude_desktop_config.json`:
 3. Configure:
    - **Name**: `VideoAudioServer`
    - **Type**: `command`
-   - **Command**: `uv --directory /path/to/your/video-edit-mcp run server.py`
+   - **Command**: `uv --directory /path/to/your/video-audio-mcp run server.py`
 
 **Alternative configuration:**
-   - **Command**: `/path/to/python /path/to/video-edit-mcp/server.py`
+   - **Command**: `/path/to/python /path/to/video-audio-mcp/server.py`
 
 ### Windsurf
 
@@ -175,7 +175,7 @@ Add to your MCP configuration:
       "command": "uv",
       "args": [
         "--directory",
-        "/path/to/your/video-edit-mcp",
+        "/path/to/your/video-audio-mcp",
         "run",
         "server.py"
       ],
@@ -203,7 +203,7 @@ For easier distribution, you can also run via npx if packaged:
   "mcpServers": {
     "VideoAudioServer": {
       "command": "npx",
-      "args": ["-y", "video-edit-mcp-server"]
+      "args": ["-y", "video-audio-mcp-server"]
     }
   }
 }
@@ -550,8 +550,8 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ```bash
 # Clone and setup development environment
-git clone https://github.com/yourusername/video-edit-mcp.git
-cd video-edit-mcp
+git clone https://github.com/misbahsy/video-audio-mcp.git
+cd video-audio-mcp
 
 # Create virtual environment
 python -m venv venv
@@ -576,9 +576,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/yourusername/video-edit-mcp/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/video-edit-mcp/discussions)
-- 📧 **Email**: support@yourproject.com
+- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/misbahsy/video-audio-mcp/issues)
+
 
 ---
 

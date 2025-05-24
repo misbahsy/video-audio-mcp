@@ -11,4 +11,5 @@ wheels/
 
 .python-version
 .DS_Store
-.cursor/
+.cursor/rules/implementation_steps.md
+.cursor/rules/prd.md
