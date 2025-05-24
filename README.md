@@ -59,7 +59,7 @@ A comprehensive Model Context Protocol (MCP) server that provides powerful video
 
 ## 🚀 Quick Start
 
-### Prerequisites
+### Prerequisites (local installation)
 
 1. **Python 3.8+** - [Download Python](https://www.python.org/downloads/)
 2. **FFmpeg** - [Install FFmpeg](https://ffmpeg.org/download.html)
@@ -67,7 +67,13 @@ A comprehensive Model Context Protocol (MCP) server that provides powerful video
 
 ### Installation
 
-#### Option 1: Using uv (Recommended)
+#### Option 1: Using Smithery (Easiest) ⭐
+
+The simplest way to get started is through the [Smithery MCP registry](https://smithery.ai/server/@misbahsy/video-audio-mcp):
+
+
+
+#### Option 2: Using uv (Recommended for Development)
 
 ```bash
 # Install uv if you haven't already
@@ -84,23 +90,6 @@ uv sync
 ffmpeg -version
 ```
 
-#### Option 2: Using pip
-
-```bash
-# Clone the repository
-git clone https://github.com/misbahsy/video-audio-mcp.git
-cd video-audio-mcp
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Verify FFmpeg installation
-ffmpeg -version
-```
 
 ### Running the Server
 
